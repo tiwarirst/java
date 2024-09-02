@@ -1,0 +1,11 @@
+class moongrav
+{
+    public static void main(String []args)
+    {
+        int weight;
+        double weighonmoon;
+        weight=58;
+        weighonmoon=(17*58)/100;
+        System.out.println("weight on moon :"+weighonmoon);
+    }
+}
