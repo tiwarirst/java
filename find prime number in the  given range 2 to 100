@@ -1,0 +1,20 @@
+//find prime number in the  given range 2 to 100
+class primenumbeer
+{
+    public static void main (String args [])
+    {
+        
+        for(int i=2;i<=100;i++)
+        {
+            boolean b=false;
+            for(int j=2;j<i;j++)
+            {
+                if(i%j==0)
+                {b=true;
+                break;}
+            }
+            if(b==false)
+            System.out.println(i);
+        }
+    }
+}
